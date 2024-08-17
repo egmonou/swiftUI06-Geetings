@@ -9,33 +9,49 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-//            Color
-//                .cyan
-//                .opacity(7.0)
-//                .ignoresSafeArea()
-                
-            LinearGradient(colors: [.cyan,.blue,.white.opacity(0.4)], startPoint:  .topLeading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
-                .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
 
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding()
-                    .foregroundStyle(Color.red)
-                    .background(Color.orange)
-                    .cornerRadius(20.0)
-                    .shadow(color: .black, radius: 5, x: 0.0, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
-                    //.opacity(0.5)
-
-            }
-            .padding()
+            Text("Hello There!")
+                .fontWeight(.bold)
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(Color.green.opacity(0.4))
+                .cornerRadius(20.0)
+                .shadow(color: .green, radius: 5, x:10, y: 10)
+            
+            Text("Welcome to Swift Programming")
+                .fontWeight(.bold)
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(Color.orange.opacity(0.4))
+                .cornerRadius(20.0)
+                .shadow(color: .white, radius: 5, x:10, y: 10)
+            
+            Text("Are you ready to?")
+                .fontWeight(.bold)
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(Color.yellow.opacity(0.4))
+                .cornerRadius(20.0)
+                .shadow(color: .yellow, radius: 5, x:10, y: 10)
+            
+            Text("Start Exploring")
+                .fontWeight(.bold)
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(Color.red.opacity(0.4))
+                .cornerRadius(20.0)
+                .shadow(color: .red, radius: 5, x:10, y: 10)
+            
+            Text("Boom")
+                .fontWeight(.bold)
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(Color.purple.opacity(0.4))
+                .cornerRadius(20.0)
+                .shadow(color: .purple, radius: 5, x:10, y: 10)
         }
+        .padding()
     }
 }
 
