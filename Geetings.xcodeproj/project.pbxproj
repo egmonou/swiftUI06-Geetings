@@ -12,6 +12,7 @@
 		C3C8044C2C7085EA007A4C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C8044B2C7085EA007A4C49 /* Assets.xcassets */; };
 		C3C804502C7085EA007A4C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C8044F2C7085EA007A4C49 /* Preview Assets.xcassets */; };
 		C3C804572C7089E5007A4C49 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804562C7089E5007A4C49 /* TextView.swift */; };
+		C3C804592C70C26F007A4C49 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804582C70C26F007A4C49 /* DataItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C3C8044D2C7085EA007A4C49 /* Geetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Geetings.entitlements; sourceTree = "<group>"; };
 		C3C8044F2C7085EA007A4C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3C804562C7089E5007A4C49 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		C3C804582C70C26F007A4C49 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C3C804462C7085E7007A4C49 /* Geetings */ = {
 			isa = PBXGroup;
 			children = (
+				C3C804582C70C26F007A4C49 /* DataItemModel.swift */,
 				C3C804472C7085E7007A4C49 /* GeetingsApp.swift */,
 				C3C804492C7085E7007A4C49 /* ContentView.swift */,
 				C3C804562C7089E5007A4C49 /* TextView.swift */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C804592C70C26F007A4C49 /* DataItemModel.swift in Sources */,
 				C3C804572C7089E5007A4C49 /* TextView.swift in Sources */,
 				C3C8044A2C7085E7007A4C49 /* ContentView.swift in Sources */,
 				C3C804482C7085E7007A4C49 /* GeetingsApp.swift in Sources */,
