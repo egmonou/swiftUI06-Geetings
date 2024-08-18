@@ -13,7 +13,13 @@ import SwiftUI
 struct TextView: View {
     
     let vText: String
-    let vColor: Color
+    @State var vColor: Color
+    var colors: [Color] = [.red, .green, .blue, .orange, .yellow, .purple,
+                          Color(red: 0.5, green: 0.5, blue: 0.5),
+                          Color(red: 0, green: 0, blue: 0.5),
+                          Color(red: 139/255, green: 207/255, blue: 240/255),
+                          Color(red: 1, green: 215/255, blue: 0)
+    ]
     
     var body: some View {
         Text(vText)
@@ -23,7 +29,12 @@ struct TextView: View {
             .background(vColor.opacity(0.4))
             .cornerRadius(20.0)
             .shadow(color: vColor, radius: 5, x:10, y: 10)
-            .
+            .onTapGesture {
+                //randmoy change the color
+                vColor = colors.randomElement() ?? .red
+
+                
+            }
     }
 }
 
