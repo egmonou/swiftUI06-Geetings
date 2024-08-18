@@ -22,7 +22,9 @@ struct TextView: View {
             .foregroundStyle(Color.white)
             .background(vColor.opacity(0.4))
             .cornerRadius(20.0)
-        .shadow(color: vColor, radius: 5, x:10, y: 10)    }
+            .shadow(color: vColor, radius: 5, x:10, y: 10)
+            .
+    }
 }
 
 #Preview {

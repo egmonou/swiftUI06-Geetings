@@ -15,8 +15,10 @@ struct MessagesView: View {
         ]
 
         
-        ForEach(messeages) { messeage in
-            TextView(vText: messeage.vText, vColor: messeage.vColor)
+        VStack (alignment: .leading){
+            ForEach(messeages) { messeage in
+                TextView(vText: messeage.vText, vColor: messeage.vColor)
+            }
         }
     }
 }
