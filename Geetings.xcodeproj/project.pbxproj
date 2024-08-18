@@ -13,6 +13,8 @@
 		C3C804502C7085EA007A4C49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C8044F2C7085EA007A4C49 /* Preview Assets.xcassets */; };
 		C3C804572C7089E5007A4C49 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804562C7089E5007A4C49 /* TextView.swift */; };
 		C3C804592C70C26F007A4C49 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804582C70C26F007A4C49 /* DataItemModel.swift */; };
+		C3C8045B2C71F030007A4C49 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8045A2C71F030007A4C49 /* TitleView.swift */; };
+		C3C8045D2C71F0DC007A4C49 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8045C2C71F0DC007A4C49 /* MessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C3C8044F2C7085EA007A4C49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3C804562C7089E5007A4C49 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		C3C804582C70C26F007A4C49 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
+		C3C8045A2C71F030007A4C49 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		C3C8045C2C71F0DC007A4C49 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C3C804582C70C26F007A4C49 /* DataItemModel.swift */,
 				C3C804472C7085E7007A4C49 /* GeetingsApp.swift */,
 				C3C804492C7085E7007A4C49 /* ContentView.swift */,
+				C3C8045C2C71F0DC007A4C49 /* MessagesView.swift */,
+				C3C8045A2C71F030007A4C49 /* TitleView.swift */,
 				C3C804562C7089E5007A4C49 /* TextView.swift */,
 				C3C8044B2C7085EA007A4C49 /* Assets.xcassets */,
 				C3C8044D2C7085EA007A4C49 /* Geetings.entitlements */,
@@ -147,8 +153,10 @@
 			files = (
 				C3C804592C70C26F007A4C49 /* DataItemModel.swift in Sources */,
 				C3C804572C7089E5007A4C49 /* TextView.swift in Sources */,
+				C3C8045D2C71F0DC007A4C49 /* MessagesView.swift in Sources */,
 				C3C8044A2C7085E7007A4C49 /* ContentView.swift in Sources */,
 				C3C804482C7085E7007A4C49 /* GeetingsApp.swift in Sources */,
+				C3C8045B2C71F030007A4C49 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
