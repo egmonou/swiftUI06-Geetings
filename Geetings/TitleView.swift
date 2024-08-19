@@ -17,16 +17,32 @@ struct TitleView: View {
                                         angle: .zero)
     }
     
+    @State private var subtitile = "Expolring IOS Programming"
+    
+    let subtitiles = [
+        "Exploring IOS programming",
+        "Learn how to bake",
+        "Programming recipes",
+        "I love Programming",
+        "Think as programmer"
+    ]
+    
+    
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 0) {
                 Text("Greeting")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
-                Text("Explorring IOS programing")
+                Text(subtitile)
                     .font(.headline)
                     .fontWeight(.thin)
             }
+            .onTapGesture {
+                //change subtitile
+                subtitile = subtitiles.randomElement() ?? "IOS"
+            }
+            
             Spacer()
             Circle()
                 .strokeBorder(vGradient, lineWidth: lineWidth)
