@@ -6,10 +6,10 @@ struct MessagesView: View {
         
         let messeages: [DataItemModel] = [
             .init(vText: "Welcome to Swift Programming", vColor: .orange),
-            .init(vText: "Are you ready to?", vColor: .green),
+            .init(vText: "Are you ready to?", vColor: Color("myGreen")),
             .init(vText: "Start Exploring", vColor: .yellow),
-            .init(vText: "Hellow", vColor: .red),
-            .init(vText: "Boom", vColor: .purple),
+            .init(vText: "Hellow", vColor: Color("myRed")),
+            .init(vText: "Boom", vColor: Color("myPurple")),
             .init(vText: "I love", vColor: .cyan),
             .init(vText: "Programming", vColor: .indigo)
         ]
