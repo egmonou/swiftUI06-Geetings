@@ -1,5 +1,8 @@
 import SwiftUI
 
+/// TitleView of teh app which displays
+/// title , subitile , shich randomly changes on tap
+/// and wea have colorful disc which rotates on top
 struct TitleView: View {
     let lineWidth = 15.0
     let diameter = 70.0

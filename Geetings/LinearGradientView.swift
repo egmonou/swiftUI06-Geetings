@@ -1,6 +1,6 @@
 
 import SwiftUI
-
+///This is backgtoupnd view whicn contatins a linear gradient
 struct LinearGradientView: View {
     var body: some View {
         LinearGradient(colors: [
