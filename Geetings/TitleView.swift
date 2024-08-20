@@ -20,9 +20,9 @@ struct TitleView: View {
                                         angle: .zero)
     }
     
-    @State private var subtitile = "Expolring IOS Programming"
+    @State private var subtitile: LocalizedStringKey = "Expolring IOS Programming"
     
-    let subtitiles = [
+    let subtitiles: [LocalizedStringKey] = [
         "Exploring IOS programming",
         "Learn how to bake",
         "Programming recipes",
@@ -43,7 +43,7 @@ struct TitleView: View {
             }
             .onTapGesture {
                 //change subtitile
-                subtitile = subtitiles.randomElement() ?? "IOS"
+                subtitile = subtitiles.randomElement() ?? LocalizedStringKey("IOS")
             }
             
             Spacer()

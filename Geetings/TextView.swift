@@ -12,7 +12,7 @@ import SwiftUI
 
 struct TextView: View {
     
-    let vText: String
+    let vText: LocalizedStringKey
     @State var vColor: Color
     var colors: [Color] = [.red, .green, .blue, .orange, .yellow, .purple,
                           Color(red: 0.5, green: 0.5, blue: 0.5),

@@ -17,6 +17,7 @@
 		C3C8045D2C71F0DC007A4C49 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8045C2C71F0DC007A4C49 /* MessagesView.swift */; };
 		C3C8045F2C71F3D6007A4C49 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8045E2C71F3D6007A4C49 /* LinearGradientView.swift */; };
 		C3C804612C74A311007A4C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C804602C74A311007A4C49 /* LaunchScreen.storyboard */; };
+		C3C804672C750AA2007A4C49 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3C804662C750AA2007A4C49 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C3C8045C2C71F0DC007A4C49 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		C3C8045E2C71F3D6007A4C49 /* LinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientView.swift; sourceTree = "<group>"; };
 		C3C804602C74A311007A4C49 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3C804662C750AA2007A4C49 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		C3C804462C7085E7007A4C49 /* Geetings */ = {
 			isa = PBXGroup;
 			children = (
+				C3C804662C750AA2007A4C49 /* Localizable.xcstrings */,
 				C3C804582C70C26F007A4C49 /* DataItemModel.swift */,
 				C3C804472C7085E7007A4C49 /* GeetingsApp.swift */,
 				C3C804492C7085E7007A4C49 /* ContentView.swift */,
@@ -129,6 +132,9 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ar,
+				he,
 			);
 			mainGroup = C3C8043B2C7085E7007A4C49;
 			productRefGroup = C3C804452C7085E7007A4C49 /* Products */;
@@ -147,6 +153,7 @@
 			files = (
 				C3C804612C74A311007A4C49 /* LaunchScreen.storyboard in Resources */,
 				C3C804502C7085EA007A4C49 /* Preview Assets.xcassets in Resources */,
+				C3C804672C750AA2007A4C49 /* Localizable.xcstrings in Resources */,
 				C3C8044C2C7085EA007A4C49 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
