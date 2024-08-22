@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-
 @main
 struct GeetingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+            //GreetingsView()
         }
     }
 }

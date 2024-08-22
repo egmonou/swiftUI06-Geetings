@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct GreetingsView: View {
         
     var body: some View {
         ZStack {
@@ -18,6 +18,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    GreetingsView()
         //.preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
