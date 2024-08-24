@@ -14,6 +14,7 @@ struct TextView: View {
     
     let vText: LocalizedStringKey
     @State var vColor: Color
+    
     var colors: [Color] = [.red, .green, .blue, .orange, .yellow, .purple,
                           Color(red: 0.5, green: 0.5, blue: 0.5),
                           Color(red: 0, green: 0, blue: 0.5),
@@ -21,8 +22,21 @@ struct TextView: View {
                           Color(red: 1, green: 215/255, blue: 0)
     ]
     
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
+    
+    
+    var isIPad: Bool {
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
+    }
+    
+    var cfont: Font {
+        isIPad ? .largeTitle : .body
+    }
+    
     var body: some View {
         Text(vText)
+            .font(cfont)
             .fontWeight(.semibold)
             .padding()
             //.foregroundStyle(Color.white)

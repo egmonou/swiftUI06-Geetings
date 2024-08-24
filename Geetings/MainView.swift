@@ -7,13 +7,23 @@
 
 import SwiftUI
 //Portriat = Compact width, regular height
+//ipad = Regular width, regular height
+
 struct MainView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.verticalSizeClass) var verticalSizeClass
     
+    
+    var isPortairPhone: Bool {
+        horizontalSizeClass == .compact && verticalSizeClass == .regular
+    }
+    
+    var isIPad: Bool {
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
+    }
+    
     var body: some View {
-        //Portiart mode?
-        if horizontalSizeClass == .compact && verticalSizeClass == .regular {
+        if isPortairPhone || isIPad {
             GreetingsView()
         }else {
             //Landscape mode?
