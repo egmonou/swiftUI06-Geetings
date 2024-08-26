@@ -13,8 +13,10 @@ struct GeetingsApp: App {
     
     @AppStorage("Language") var asLanguage: String = "en"
     @AppStorage("Direction") var asLayoutDirectionString: String = LEFT_To_RIGHT
-
+    
     var body: some Scene {
+        
+        let resetTip = true
         
         var layoutDiection: LayoutDirection {
             asLayoutDirectionString == LEFT_To_RIGHT ? .leftToRight : .rightToLeft
@@ -26,6 +28,17 @@ struct GeetingsApp: App {
                 layoutDirectionString: $asLayoutDirectionString)
             .environment(\.locale, Locale(identifier: asLanguage))
             .environment(\.layoutDirection, layoutDiection)
+            .task {
+                if resetTip {
+                    try? Tips.resetDatastore()
+                }
+                // Configure and load your tips at app launch.
+                    try? Tips.configure([
+                        .displayFrequency(.immediate),
+                        .datastoreLocation(.applicationDefault)
+                    ])
+                }
+            }
         }
     }
-}
+

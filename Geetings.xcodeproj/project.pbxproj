@@ -25,6 +25,7 @@
 		C3C804672C750AA2007A4C49 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3C804662C750AA2007A4C49 /* Localizable.xcstrings */; };
 		C3C8046B2C765D73007A4C49 /* landscapeGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8046A2C765D73007A4C49 /* landscapeGreetingView.swift */; };
 		C3C8046D2C765E67007A4C49 /* GrettingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C8046C2C765E67007A4C49 /* GrettingsTextView.swift */; };
+		C3DE4F592C7CF2F700530CCE /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C3C804662C750AA2007A4C49 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C3C8046A2C765D73007A4C49 /* landscapeGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landscapeGreetingView.swift; sourceTree = "<group>"; };
 		C3C8046C2C765E67007A4C49 /* GrettingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrettingsTextView.swift; sourceTree = "<group>"; };
+		C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C39FB1482C79E40F009BB8A3 /* Constatns.swift */,
+				C3DE4F582C7CF2F700530CCE /* GreetingsTip.swift */,
 				C3C804692C765BF6007A4C49 /* Views */,
 				C3C804682C765BD6007A4C49 /* Model */,
 				C3C804662C750AA2007A4C49 /* Localizable.xcstrings */,
@@ -208,6 +211,7 @@
 				C3C8046B2C765D73007A4C49 /* landscapeGreetingView.swift in Sources */,
 				C3C804572C7089E5007A4C49 /* TextView.swift in Sources */,
 				C3C8045F2C71F3D6007A4C49 /* LinearGradientView.swift in Sources */,
+				C3DE4F592C7CF2F700530CCE /* GreetingsTip.swift in Sources */,
 				C3C8045D2C71F0DC007A4C49 /* MessagesView.swift in Sources */,
 				C3C8044A2C7085E7007A4C49 /* GreetingsView.swift in Sources */,
 				C32004D12C77439D0086367A /* RotatableCireceleView.swift in Sources */,
@@ -360,7 +364,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -399,7 +403,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;

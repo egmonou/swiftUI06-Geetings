@@ -37,6 +37,9 @@
         }
       }
     },
+    "Click on the text and dick" : {
+
+    },
     "English" : {
       "localizations" : {
         "es" : {
@@ -276,6 +279,9 @@
           }
         }
       }
+    },
+    "Text Will be randomly generatd and observe nice animations!" : {
+
     },
     "Think as programmer" : {
       "localizations" : {
