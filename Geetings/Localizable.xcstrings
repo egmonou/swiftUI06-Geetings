@@ -38,7 +38,14 @@
       }
     },
     "English" : {
-
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "eglishion"
+          }
+        }
+      }
     },
     "Exploring IOS programming" : {
       "localizations" : {

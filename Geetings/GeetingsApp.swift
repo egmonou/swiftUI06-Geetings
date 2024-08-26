@@ -9,20 +9,20 @@ import SwiftUI
 @main
 struct GeetingsApp: App {
     
-    @State private var pvLanguage: String = "en"
-    @State private var pvlayoutDirectionString: String = LEFT_To_RIGHT
-    
+    @AppStorage("Language") var asLanguage: String = "en"
+    @AppStorage("Direction") var asLayoutDirectionString: String = LEFT_To_RIGHT
+
     var body: some Scene {
         
         var layoutDiection: LayoutDirection {
-            pvlayoutDirectionString == LEFT_To_RIGHT ? .leftToRight : .rightToLeft
+            asLayoutDirectionString == LEFT_To_RIGHT ? .leftToRight : .rightToLeft
         }
         
         WindowGroup {
             MainView(
-                language: $pvLanguage,
-                layoutDirectionString: $pvlayoutDirectionString)
-            .environment(\.locale, Locale(identifier: pvLanguage))
+                language: $asLanguage,
+                layoutDirectionString: $asLayoutDirectionString)
+            .environment(\.locale, Locale(identifier: asLanguage))
             .environment(\.layoutDirection, layoutDiection)
             //GreetingsView()
         }
