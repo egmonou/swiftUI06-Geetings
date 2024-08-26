@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import TipKit
+
 @main
 struct GeetingsApp: App {
     
@@ -24,7 +26,6 @@ struct GeetingsApp: App {
                 layoutDirectionString: $asLayoutDirectionString)
             .environment(\.locale, Locale(identifier: asLanguage))
             .environment(\.layoutDirection, layoutDiection)
-            //GreetingsView()
         }
     }
 }
