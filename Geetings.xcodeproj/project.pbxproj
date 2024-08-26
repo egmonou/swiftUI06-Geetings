@@ -10,6 +10,8 @@
 		C32004D12C77439D0086367A /* RotatableCireceleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32004D02C77439D0086367A /* RotatableCireceleView.swift */; };
 		C32004D32C77466B0086367A /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32004D22C77466B0086367A /* VerticalTitleView.swift */; };
 		C32004D52C7799A20086367A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32004D42C7799A20086367A /* MainView.swift */; };
+		C39FB1472C79E3BF009BB8A3 /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FB1462C79E3BF009BB8A3 /* LanguageOptionsView.swift */; };
+		C39FB1492C79E40F009BB8A3 /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FB1482C79E40F009BB8A3 /* Constatns.swift */; };
 		C3C804482C7085E7007A4C49 /* GeetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804472C7085E7007A4C49 /* GeetingsApp.swift */; };
 		C3C8044A2C7085E7007A4C49 /* GreetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C804492C7085E7007A4C49 /* GreetingsView.swift */; };
 		C3C8044C2C7085EA007A4C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C8044B2C7085EA007A4C49 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		C32004D02C77439D0086367A /* RotatableCireceleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCireceleView.swift; sourceTree = "<group>"; };
 		C32004D22C77466B0086367A /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
 		C32004D42C7799A20086367A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C39FB1462C79E3BF009BB8A3 /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		C39FB1482C79E40F009BB8A3 /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
 		C3C804442C7085E7007A4C49 /* Geetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C804472C7085E7007A4C49 /* GeetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeetingsApp.swift; sourceTree = "<group>"; };
 		C3C804492C7085E7007A4C49 /* GreetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 		C3C804462C7085E7007A4C49 /* Geetings */ = {
 			isa = PBXGroup;
 			children = (
+				C39FB1482C79E40F009BB8A3 /* Constatns.swift */,
 				C3C804692C765BF6007A4C49 /* Views */,
 				C3C804682C765BD6007A4C49 /* Model */,
 				C3C804662C750AA2007A4C49 /* Localizable.xcstrings */,
@@ -117,6 +122,7 @@
 				C3C8045E2C71F3D6007A4C49 /* LinearGradientView.swift */,
 				C3C804562C7089E5007A4C49 /* TextView.swift */,
 				C3C8046A2C765D73007A4C49 /* landscapeGreetingView.swift */,
+				C39FB1462C79E3BF009BB8A3 /* LanguageOptionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,9 +211,11 @@
 				C3C8045D2C71F0DC007A4C49 /* MessagesView.swift in Sources */,
 				C3C8044A2C7085E7007A4C49 /* GreetingsView.swift in Sources */,
 				C32004D12C77439D0086367A /* RotatableCireceleView.swift in Sources */,
+				C39FB1472C79E3BF009BB8A3 /* LanguageOptionsView.swift in Sources */,
 				C3C804482C7085E7007A4C49 /* GeetingsApp.swift in Sources */,
 				C32004D32C77466B0086367A /* VerticalTitleView.swift in Sources */,
 				C3C8045B2C71F030007A4C49 /* TitleView.swift in Sources */,
+				C39FB1492C79E40F009BB8A3 /* Constatns.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

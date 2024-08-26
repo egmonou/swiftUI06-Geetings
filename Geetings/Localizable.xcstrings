@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Arabic" : {
+
+    },
     "Are you ready to?" : {
       "localizations" : {
         "ar" : {
@@ -33,6 +36,9 @@
           }
         }
       }
+    },
+    "English" : {
+
     },
     "Exploring IOS programming" : {
       "localizations" : {
@@ -244,6 +250,9 @@
           }
         }
       }
+    },
+    "Spanish" : {
+
     },
     "Start Exploring" : {
       "localizations" : {

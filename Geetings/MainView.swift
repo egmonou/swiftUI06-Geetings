@@ -22,16 +22,38 @@ struct MainView: View {
         horizontalSizeClass == .regular && verticalSizeClass == .regular
     }
     
+    @Binding var language: String
+    @Binding var layoutDirectionString: String
+    
     var body: some View {
         if isPortairPhone || isIPad {
-            GreetingsView()
+            //GreetingsView()
+            NavigationStack {
+                GreetingsView()
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            LanguageOptionsView(
+                                language: $language,
+                                layoutDirectionString: $layoutDirectionString)
+                        }
+                    }
+            }
         }else {
             //Landscape mode?
-            landscapeGreetingView()
+            NavigationStack {
+                landscapeGreetingView()
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            LanguageOptionsView(
+                                language: $language,
+                                layoutDirectionString: $layoutDirectionString)
+                        }
+                    }
+            }
         }
     }
 }
 
 #Preview {
-    MainView()
+    MainView(language: .constant("en"), layoutDirectionString: .constant(LEFT_To_RIGHT))
 }
