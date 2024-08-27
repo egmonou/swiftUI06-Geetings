@@ -16,7 +16,7 @@ struct GeetingsApp: App {
     
     var body: some Scene {
         
-        let resetTip = true
+        let resetTip = false
         
         var layoutDiection: LayoutDirection {
             asLayoutDirectionString == LEFT_To_RIGHT ? .leftToRight : .rightToLeft
